@@ -1,0 +1,13 @@
+  NIM / Nama    : 4222401049 / Arya Yudha Sembiring
+  Waktu         : 2026-10-25 13:34
+  Komputer      : 4fa2b7a8df77 | Tesla T4
+  Dataset       : dataset_v1  (sidik jari label: 6f9408b050)
+  Kelas         : person, cup, scissors
+
+  Eksperimen     Perubahan   mAP50 mAP50-95    P     R    ms  menit
+  E1_pretrained  -           0.429   0.250  0.569 0.426   7.5    1.8
+  E2_scratch     -           0.004   0.001  0.682 0.004   4.2    1.4
+  E3_tuning      imgsz=640   0.521   0.347  0.624 0.461  10.5    1.8
+
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50=0.610  mAP50-95=0.444  P=0.584  R=0.668
